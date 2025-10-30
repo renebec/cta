@@ -39,7 +39,7 @@ table {
   width: 94%;
   font-family:Lato;
   white-space: nowrap;
-table-layout: fixed;
+
 
 }
 
@@ -66,8 +66,7 @@ th:nth-child(even),td:nth-child(even) {
 table th {
   text-align: center;
  white-space: nowrap;
-font-size: .85em;
-  letter-spacing: .1em;
+
 
 }
 table td {
@@ -296,6 +295,7 @@ a.button {
 h1{
     font-family:Lato;
 }
+
 
 
 
