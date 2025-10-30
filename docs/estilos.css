@@ -39,6 +39,8 @@ table {
   width: 94%;
   font-family:Lato;
   font-size:auto;
+  white-space: nowrap;
+table-layout: fixed;
 
 }
 
@@ -55,17 +57,20 @@ tr:hover {background-color: #D6EEEE;}
 
 th:nth-child(even),td:nth-child(even) {
   background-color: rgba(150, 212, 212, 0.4);
+ white-space: nowrap;
 }
 
 * {
   box-sizing: border-box;
 }
 
-th {
+table th {
   text-align: center;
+ white-space: nowrap;
 }
-td {
+table td {
   text-align: center;
+ white-space: nowrap;
 }
 
 div{
@@ -287,6 +292,7 @@ a.button {
 h1{
     font-family:Lato;
 }
+
 
 
 
