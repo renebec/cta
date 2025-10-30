@@ -38,7 +38,6 @@ table {
   border-collapse: collapse;
   width: 94%;
   font-family:Lato;
-  font-size:auto;
   white-space: nowrap;
 table-layout: fixed;
 
@@ -292,6 +291,7 @@ a.button {
 h1{
     font-family:Lato;
 }
+
 
 
 
