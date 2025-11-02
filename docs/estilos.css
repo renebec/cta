@@ -294,4 +294,21 @@ h1{
 }
 
 
+.icon-hover {
+  display: inline-block;             /* para que se comporte como parte del texto */
+  width: 24px;                        /* tamaño “normal” del ícono */
+  height: 24px;
+  overflow: hidden;                   /* por si la imagen se escala, que no desborde */
+  vertical-align: middle;             /* para alinearlo con el texto */
+}
+
+.icon-img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;    /* transición suave al hacer hover */
+}
+
+.icon-hover:hover .icon-img {
+  transform: scale(4);                /* por ejemplo, escala 4× para desplegar */
+}
 
